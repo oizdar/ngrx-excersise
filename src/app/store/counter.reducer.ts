@@ -7,6 +7,9 @@ export const counterReducer = createReducer(
   on(increment, (state, action) => state + action.value)
 );
 
-// export function counterReducer(state = initialState) {
+// export function counterReducer(state = initialState, action: any) {
+//   if(action.type === '[Counter] Increment') {
+//     return state + action.value;
+//   }
 //   return state;
 // }

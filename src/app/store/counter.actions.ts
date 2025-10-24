@@ -7,10 +7,10 @@ export const increment = createAction(
   props<{value: number}>()
 );
 
-export class IncrementAction implements Action {
-  readonly type = INCREMENT;
-
-  constructor(public value: number) {}
-}
-
-export type CounterActions = IncrementAction;
+// export class IncrementAction implements Action {
+//   readonly type = INCREMENT;
+//
+//   constructor(public value: number) {}
+// }
+//
+// export type CounterActions = IncrementAction;
